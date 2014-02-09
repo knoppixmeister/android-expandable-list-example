@@ -20,6 +20,7 @@ public class MainActivity extends Activity {
 
 		ExpandableListView elv = (ExpandableListView)findViewById(R.id.expandableListView1);
 		elv.setAdapter(new MyAdapter(getApplicationContext()));
+		elv.setGroupIndicator(null);
 	}
 
 	@Override
